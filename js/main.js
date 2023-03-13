@@ -5,6 +5,6 @@ window.onload = () => {
     if ('serviceWorker' in navigator) {
         
         //TODO Revisar ruta
-        navigator.serviceWorker.register('sw.js');
+        navigator.serviceWorker.register('./sw.js');
     }
 }
